@@ -10,7 +10,6 @@ import {
     h1,
     pass,
     signup_link,
-    select,
 } from './css/navbar.module.css'
 
 const Navbar = () => {
