@@ -1,9 +1,9 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 
-const IndexPage = () => {
+const CartPage = () => {
   return (
-    <Layout pageTitle="Home Page">
+    <Layout pageTitle="Cart Page">
       <p>I'm making this by following the Gatsby Tutorial.</p>
     </Layout>
   )
@@ -11,4 +11,4 @@ const IndexPage = () => {
 
 export const Head = () => <title>Home Page</title>
 
-export default IndexPage
+export default CartPage
