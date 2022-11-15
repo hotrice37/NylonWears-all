@@ -1,17 +1,20 @@
 import * as React from 'react'
 import Navbar from './navbar'
-import { heading } from './layout.module.css'
+import { heading } from './css/layout.module.css'
+import Footer from './footer'
 
-const Layout = ({ pageTitle, children }) => {
+const Layout = ({ children }) => {
   return (
     <div>
 			<header>
       	<Navbar />
 			</header>
-      <main>
-        <h1 className={heading}>{pageTitle}</h1>
+      <main className='bg-black'>
         {children}
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   )
 }

@@ -9,6 +9,6 @@ const CartPage = () => {
   )
 }
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>Cart Page</title>
 
 export default CartPage

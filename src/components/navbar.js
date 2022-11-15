@@ -11,7 +11,7 @@ import {
     pass,
     signup_link,
     select,
-} from './navbar.module.css'
+} from './css/navbar.module.css'
 
 const Navbar = () => {
     return (
@@ -50,7 +50,7 @@ const Navbar = () => {
                             </div>
                             <div className="navbar-nav">
                                 <div className="nav-item">
-                                    <Link className="nav-link text-white" href="#Contact-Us">Contact Us</Link>
+                                    <Link to="/contactus" className="nav-link text-white">Contact Us</Link>
                                 </div>
                             </div>
                         </div>
