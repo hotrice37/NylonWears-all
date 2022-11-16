@@ -16,7 +16,7 @@ const Navbar = () => {
     return (
         // Navigation Bar Start
         <nav className={`${navbar} navbar bg-dark text-white`}>
-            <div className="container-fluid justify-content-around navbar-expand-lg flex-column flex-lg-row gap-1 gap-lg-auto">
+            <div className="container justify-content-around navbar-expand-lg flex-column flex-lg-row gap-1 gap-lg-auto">
                 <div className='d-flex gap-1'><button className="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i className="bi bi-list-ul"></i>
                 </button>
